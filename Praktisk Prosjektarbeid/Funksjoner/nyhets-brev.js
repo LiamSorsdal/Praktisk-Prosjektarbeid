@@ -6,7 +6,7 @@ const popup = document.getElementById("popup");
 const abonner = document.getElementById("abonner");
 
 //kobler sammen variabel i js sammen med "close" knappen i popupen i html
-const lukkpopup = document.getElementById("lukkPopup");
+const lukkpopup = document.getElementById("closePopup");
 
 //Funksjon som viser popup'en når popup-knappen blir klikket på
 abonner.addEventListener('click', () => {
@@ -18,5 +18,8 @@ closePopup.addEventListener('click', () => {
     popup.style.display = 'none'; //Skjuler popupen ved hjelp av funksjonen none
 });
 
-
+//Funksjonen når kunden skriver inn mailadressen for å bli abonnent og trykker på abonner-knappen
+document.getElementById('abonnerSkjema').addEventListener('submit', (e) => {
+    
+})
 
