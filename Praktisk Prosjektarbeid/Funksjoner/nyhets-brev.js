@@ -10,7 +10,13 @@ const lukkpopup = document.getElementById("lukkPopup");
 
 //Funksjon som viser popup'en når popup-knappen blir klikket på
 abonner.addEventListener('click', () => {
-    popup.style.display = 'flex';
+    popup.style.display = 'flex'; //Viser popupen med funksjonen flex
 });
 
 //Funksjonen som lukker popupen når X knappen har blitt trykket på
+closePopup.addEventListener('click', () => {
+    popup.style.display = 'none'; //Skjuler popupen ved hjelp av funksjonen none
+});
+
+
+
